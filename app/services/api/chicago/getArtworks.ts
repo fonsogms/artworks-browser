@@ -40,5 +40,14 @@ export function makeGetArtworks(chicagoApi: AxiosInstance) {
     return data;
   };
 }
-
+/**
+ * Fetches a list of artworks based on specified parameters.
+ *
+ * @param {Object} params - The parameters for fetching artworks.
+ * @param {number} params.page - The page number for pagination.
+ * @param {string} params.search - The search query string.
+ * @param {boolean} params.isPublicDomain - Filter for public domain artworks.
+ * @param {boolean} params.isOnView - Filter for artworks currently on view.
+ * @returns {Promise<IGetArtworksResponse>} A promise that resolves to the API response containing the list of artworks.
+ */
 export const getArtworks = makeGetArtworks(chicagoApi);

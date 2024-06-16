@@ -1,9 +1,9 @@
-import axios, { AxiosInstance } from "axios";
-import { makeGetArtworks } from "./getArtworks";
+import { AxiosInstance } from "axios";
+import { getArtworks, makeGetArtworks } from "./getArtworks";
 import { mock, mockDeep } from "vitest-mock-extended";
 
 it("works", async () => {
-  const getMock = vi.fn().mockResolvedValue({ data: "alfosso" });
+  const getMock = vi.fn().mockResolvedValue({});
   // const client = mock<AxiosInstance>({
   //   get: getMock,
 
