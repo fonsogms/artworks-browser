@@ -6,17 +6,17 @@ This single page application (SPA) allows users to browse, search, and filter ar
 
 ## Features
 
-1. **Search Artworks**
+1. **Search Artworks** 🔍  
    - Users can search for artworks using keywords.
-2. **Pagination**
+2. **Pagination** 📖
    - Navigate between pages of search results.
-3. **Filter Artworks**
+3. **Filter Artworks** 🗃️
    - Filter artworks by:
      - Public domain status
      - On view status
-4. **View Artwork Details**
+4. **View Artwork Details** 👀
    - Select an artwork to view detailed information.
-5. **Bookmark Artworks**
+5. **Bookmark Artworks** 🔖
    - Bookmark selected artworks in the local storage.
    - Unbookmark previously bookmarked artworks.
    - View a separate list of bookmarked artworks.
