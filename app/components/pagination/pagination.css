@@ -1,0 +1,32 @@
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-button {
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.page-number {
+  margin: 0 5px;
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.page-number.active {
+  background-color: #000; /* or your preferred active color */
+  color: #fff;
+  border-radius: 4px;
+}
+
+.page-number:hover,
+.nav-button:hover {
+  background-color: #ddd;
+}
