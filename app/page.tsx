@@ -41,20 +41,12 @@ const ArtworksComponent = () => {
         isPublicDomain={isPublicDomain}
       />
 
-      <div>
-        {isLoading ? (
-          <Loading />
-        ) : (
-          <div>
-            <ArtWorkGrid artworks={data || []} />
-            <Pagination
-              currentPage={page}
-              totalPages={pagination?.total_pages}
-              setCurrentPage={setPage}
-            />
-          </div>
-        )}
-      </div>
+      <ArtWorkGrid artworks={data || []} isLoading={isLoading} />
+      <Pagination
+        currentPage={page}
+        totalPages={pagination?.total_pages}
+        setCurrentPage={setPage}
+      />
     </div>
   );
 };

@@ -29,7 +29,7 @@ const ArtWorksScreen = () => {
         isPublicDomain={isPublicDomain}
       />
 
-      <ArtWorkGrid artworks={artWorks || []} />
+      <ArtWorkGrid artworks={artWorks || []} isLoading={false} />
     </div>
   );
 };

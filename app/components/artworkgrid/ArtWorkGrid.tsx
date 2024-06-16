@@ -5,12 +5,17 @@ import "./ArtWorkGrid.css";
 import LoadingImage from "../Image/Image";
 import { IArtWorks } from "@/app/services/api/chicago/getArtworks";
 import { URLS } from "@/app/constants/URLS";
+import Loading from "../Loading/Loading";
 
 type IArtWorkGridProps = {
   artworks: IArtWorks;
+  isLoading: boolean;
 };
 
-const ArtWorkGrid: React.FC<IArtWorkGridProps> = ({ artworks }) => {
+const ArtWorkGrid: React.FC<IArtWorkGridProps> = ({ artworks, isLoading }) => {
+  if (isLoading) {
+    return <Loading height="50vh" />;
+  }
   return (
     <div className="artwork-grid" data-testid="art-grid">
       {artworks.map((artwork) => (
