@@ -30,8 +30,8 @@ Refer to the [Art Institute of Chicago API documentation](https://api.artic.edu/
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/artworks-browser.git
-   cd artworks-browser
+https://github.com/fonsogms/artworks-browser.git
+cd artworks-browser
    ```
 
 ## Getting Started
