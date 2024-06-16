@@ -2,7 +2,7 @@
 import React from "react";
 import { useArtworkDetails } from "./useArtworkDetails";
 import { getImageUrl } from "../getImageUrl";
-import LoadingImage from "../components/Image/Image";
+import LoadingImage from "../components/custom-image/custom-image";
 import Loading from "../components/Loading/Loading";
 import "./artwork.details.css";
 

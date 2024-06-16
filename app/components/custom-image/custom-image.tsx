@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-import "./Image.css";
+import "./custom-image.css";
 
 type ILoadingImageProps = {
   src: string;

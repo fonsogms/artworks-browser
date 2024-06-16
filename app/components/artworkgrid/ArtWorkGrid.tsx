@@ -2,10 +2,10 @@ import Link from "next/link";
 import React from "react";
 import { getImageUrl } from "../../getImageUrl";
 import "./ArtWorkGrid.css";
-import LoadingImage from "../Image/Image";
 import { IArtWorks } from "@/app/services/api/chicago/getArtworks";
 import { URLS } from "@/app/constants/URLS";
 import Loading from "../Loading/Loading";
+import LoadingImage from "../custom-image/custom-image";
 
 type IArtWorkGridProps = {
   artworks: IArtWorks;
