@@ -29,35 +29,33 @@ Refer to the [Art Institute of Chicago API documentation](https://api.artic.edu/
 ## Installation and Setup
 
 1. **Clone the Repository**
-   ```bash
-https://github.com/fonsogms/artworks-browser.git
-cd artworks-browser
-   ```
-
-## Getting Started
-
-1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/artworks-browser.git
-   cd artworks-browser
+      https://github.com/fonsogms/artworks-browser.git
+      cd artworks-browser
    ```
 
-2. **Run the dev enviroment**
+2. **Install the dependencies**
+
+```bash
+npm run install
+# or
+yarn install
+
+```
+
+3. **Run the dev enviroment**
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 ```
 
 The app should be running in http://localhost:3000
 
-3. **Run tests**
+4. **Run tests**
 
 This app uses vitest for asserting tests
 
@@ -65,8 +63,9 @@ This app uses vitest for asserting tests
 npm run test
 # or
 yarn test
-# or
-pnpm test
-# or
-bun test
 ```
+
+## Check the deployed app
+
+If you want to see this app in production here is the link:
+https://artworks-browser.vercel.app
